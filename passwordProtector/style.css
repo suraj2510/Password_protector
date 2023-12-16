@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #833ab4;
+    height: 100vh;
+}
+.input-box{
+    background-color: #fff;
+    width: 90%;
+    padding: 10px 10px;
+    max-width: 18rem;
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    border: 2px solid black;
+}
+.input-box input{
+    width: 100%;
+    font-size: 1.3rem;
+    font-weight: 700;
+    border: 0;
+    outline: 0;
+    
+}
+.input-box img{
+    width: 1.4rem;
+    height: 1.4rem;
+    cursor: pointer;
+}
+
+
